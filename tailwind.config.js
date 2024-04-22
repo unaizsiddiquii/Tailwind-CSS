@@ -3,7 +3,13 @@ module.exports = {
   content: ["./src/index.html"],
   theme: {
     extend: {
-      colors: {},
+      colors: {
+        primary: "#3238f2",
+      },
+      fontFamily: {
+        display: ["Poppins", "sans-sarif"],
+        body: ["Inter", "san-sarif"],
+      },
     },
   },
   plugins: [],
