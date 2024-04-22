@@ -604,6 +604,10 @@ video {
   max-height: 3rem;
 }
 
+.min-h-screen{
+  min-height: 100vh;
+}
+
 .w-full{
   width: 100%;
 }
@@ -686,6 +690,11 @@ video {
 .bg-cyan-600{
   --tw-bg-opacity: 1;
   background-color: rgb(8 145 178 / var(--tw-bg-opacity));
+}
+
+.bg-red-200{
+  --tw-bg-opacity: 1;
+  background-color: rgb(254 202 202 / var(--tw-bg-opacity));
 }
 
 .object-cover{
